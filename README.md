@@ -1,7 +1,3 @@
-Here’s the updated README file that includes the description of the `Catch` environment:
-
----
-
 # Policy-based Reinforcement Learning
 
 ## Overview
@@ -92,19 +88,19 @@ To train a specific policy-based algorithm on the `Catch` environment:
 
 - **REINFORCE**:
   ```bash
-  python src/train.py --env Catch --algorithm reinforce
+  python monte_carlo_policy_gradeint.py
   ```
 - **A2C**:
   ```bash
-  python src/train.py --env Catch --algorithm a2c
+  python actor_critic.py
   ```
 - **PPO**:
   ```bash
-  python src/train.py --env Catch --algorithm ppo
+  python ppo.py
   ```
 - **CMA-ES**:
   ```bash
-  python src/train.py --env Catch --algorithm cmaes
+  python CMAES.py
   ```
 
 ## Contact
